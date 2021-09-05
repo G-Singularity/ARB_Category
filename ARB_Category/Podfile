@@ -1,0 +1,19 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'ARB_Category' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  pod "CTMediator"
+  # Pods for ARB_Category
+
+  target 'ARB_CategoryTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'ARB_CategoryUITests' do
+    # Pods for testing
+  end
+
+end

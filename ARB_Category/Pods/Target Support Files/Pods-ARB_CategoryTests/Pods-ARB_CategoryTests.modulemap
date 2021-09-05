@@ -1,0 +1,6 @@
+framework module Pods_ARB_CategoryTests {
+  umbrella header "Pods-ARB_CategoryTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
